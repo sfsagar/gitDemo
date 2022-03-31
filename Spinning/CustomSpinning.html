@@ -1,0 +1,9 @@
+<template>
+    <template if:true="{isLoading}">
+        <div class="loader"></div>
+        Please Wait...
+    </template>
+    <br/>
+    <lightning-button label="Toggle Spinner" onclick={showSpinner}>
+    </lightning-button>
+</template>
